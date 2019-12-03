@@ -16,19 +16,19 @@ namespace game1.func
     class CStar
     {
         //位置
-        private int _x, _y;
+        private readonly int _x, _y;
 
         //速度
-        private float _speed;
+        private readonly float _speed;
 
         //角度
-        private float _angle;
+        private readonly float _angle;
 
         //颜色
-        private Color _color;
+        private readonly Color _color;
 
         //大小
-        private int _width, _height;
+        private readonly int _width, _height;
 
         /// <summary>
         /// Star初始化
