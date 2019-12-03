@@ -32,7 +32,7 @@ namespace game1
         {
             SolidBrush sb;
             Rectangle r;
-            foreach (Star s in stars)
+            foreach (CStar s in stars)
             {
                 sb = new SolidBrush(s.GetColor);
                 r = new Rectangle(s.GetPoint, s.GetSize);
@@ -50,7 +50,7 @@ namespace game1
         private void InitStars()
         {
             stars = new ArrayList();
-            Star s = new Star(100, 200, 50, 50, 0, Color.FromArgb(100, Color.Red));
+            CStar s = new CStar(100, 200, 50, 50, 0, Color.FromArgb(100, Color.Red));
             stars.Add(s);
         }
 
