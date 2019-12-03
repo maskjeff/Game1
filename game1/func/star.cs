@@ -56,6 +56,9 @@ namespace game1.func
         public Size GetSize { get => new Size(_width, _height); }
     }
 
+    /// <summary>
+    /// 渲染画面
+    /// </summary>
     static class Rendorter
     {
         public static bool isRun;
